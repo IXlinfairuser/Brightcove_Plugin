@@ -3,10 +3,10 @@
 ## Javascript
 [Brightcove Overlay Plugin JS](//players.brightcove.net/videojs-overlay/1/videojs-overlay.min.js)  
 [Brightcove Ima3 Plugin JS](//players.brightcove.net/videojs-ima3/2/videojs.ima3.min.js)  
-[Plugin.js](https://rawgit.com/Kyle30/Brightcove_Player_Plugin/master/adCountdownTimer/plugin.js)  
+[Plugin.js](https://raw.githubusercontent.com/IXlinfairuser/Brightcove_Plugin/master/adCountdownTimer/plugin.js)  
 ## CSS
 [Brightcove Ima3 Plugin CSS](//players.brightcove.net/videojs-ima3/2/videojs.ima3.min.css)  
-[Plugin.css(Brightcove Overlay Plugin CSS Modified)](https://rawgit.com/Kyle30/Brightcove_Player_Plugin/master/adCountdownTimer/plugin.css)  
+[Plugin.css(Brightcove Overlay Plugin CSS Modified)](https://raw.githubusercontent.com/IXlinfairuser/Brightcove_Plugin/master/adCountdownTimer/plugin.css)  
 ## JSON
 ima3
 ```JSON
