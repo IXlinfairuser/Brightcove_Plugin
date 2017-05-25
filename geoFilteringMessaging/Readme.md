@@ -8,7 +8,7 @@ geoFilteringMessaging
 ```
 {
   "code": "CLIENT_GEO",
-  "headline": "因版權限制，僅可於台灣地區觀看"
+  "headline": "本影片未授權在您的地區收看./n This video could not be played in your area."
 }
 ```
 
