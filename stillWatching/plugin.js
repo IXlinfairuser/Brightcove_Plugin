@@ -19,4 +19,7 @@ videojs.plugin('stillWatching', function () {
             };
         }
     });
+    player.on('seeked', function(){
+        timeCheckPoint = player.currentTime();
+    });
 });
