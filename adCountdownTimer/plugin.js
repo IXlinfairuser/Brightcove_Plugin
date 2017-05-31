@@ -13,11 +13,9 @@ videojs.plugin('adCountDownTimer', function(){
 		}, 300);
 	});
 	player.on('ads-ad-ended', function(){
-		document.getElementById('ad-overlay').style.zIndex = -10;
 		clearInterval(countdownTimer);
 	});
 	player.one('playing', function(){
-		document.getElementById('ad-overlay').style.zIndex = -10;
 		clearInterval(countdownTimer);
 	});
 })
