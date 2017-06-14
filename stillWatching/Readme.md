@@ -1,6 +1,6 @@
 
 # Still Watching Plugin
-#目的：觀看者是否仍繼續觀看影片
+功：觀看者是否仍繼續觀看影片
 ## Javascript 
 [Brightcove Overlay Plugin JS](//players.brightcove.net/videojs-overlay/1/videojs-overlay.min.js)  
 [Plugin.js](https://raw.githubusercontent.com/IXlinfairuser/Brightcove_Plugin/master/stillWatching/plugin.js)  
