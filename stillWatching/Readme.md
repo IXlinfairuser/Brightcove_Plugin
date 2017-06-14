@@ -6,7 +6,7 @@
 [Brightcove Overlay Plugin JS](//players.brightcove.net/videojs-overlay/1/videojs-overlay.min.js)  
 [Plugin.js](https://raw.githubusercontent.com/IXlinfairuser/Brightcove_Plugin/master/stillWatching/plugin.js)  
 ## CSS
-[Brightcove Overlay Plugin CSS](//players.brightcove.net/videojs-overlay/1/videojs-overlay.css)    
+[Brightcove Overlay Plugin CSS](//players.brightcove.net/videojs-overlay/1/videojs-overlay.css)   
 範例檔為 stillWatching.css
 ## Name, Options( JSON )
 ### overlay
@@ -37,6 +37,6 @@ end :     觸發顯示機制的終點  (可以是button,time...)
 [overlay](//docs.brightcove.com/en/player/brightcove-player/guides/overlay-plugin.html) 
 
 ### 效果圖  
- 以10秒為範例    
-![msg pic](http://i.imgur.com/FIaT9fU.jpg)  
+ 以10秒為範例   
+ ![msg pic](http://i.imgur.com/FIaT9fU.jpg)  
 [Imgur](http://i.imgur.com/FIaT9fU.jpg) 如果上圖看不見請點連結
