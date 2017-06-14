@@ -36,4 +36,4 @@ end :     觸發顯示機制的終點  (可以是button,time...)
 [overlay](//docs.brightcove.com/en/player/brightcove-player/guides/overlay-plugin.html)  
 
 ### 效果  
-![msg sample](//i.imgur.com/FIaT9fU.jpg)
+[Imgur](http://i.imgur.com/FIaT9fU.jpg)
