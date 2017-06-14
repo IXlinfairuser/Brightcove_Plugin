@@ -1,6 +1,6 @@
-#目的：觀看者是否仍繼續觀看影片
-# Still Watching Plugin
 
+# Still Watching Plugin
+#目的：觀看者是否仍繼續觀看影片
 ## Javascript 
 [Brightcove Overlay Plugin JS](//players.brightcove.net/videojs-overlay/1/videojs-overlay.min.js)  
 [Plugin.js](https://raw.githubusercontent.com/IXlinfairuser/Brightcove_Plugin/master/stillWatching/plugin.js)  
@@ -18,14 +18,14 @@ overlay
   }]
 }
 ```
-##content : 欲顯示的文字內容  
-##align :   欲顯示文字的位置  
-##start :   觸發顯示機制的起點  (可以是button,time...)  
-##end :     觸發顯示機制的終點  (可以是button,time...)  
+content : 欲顯示的文字內容  
+align :   欲顯示文字的位置  
+start :   觸發顯示機制的起點  (可以是button,time...)  
+end :     觸發顯示機制的終點  (可以是button,time...)  
 
 
 stillWatching
 ```JSON
 {}
 ```
-##另一項參數在JS裡為設定多久的時間檢查是否還在觀看影片 
+另一項參數在JS裡為設定多久的時間檢查是否還在觀看影片 
