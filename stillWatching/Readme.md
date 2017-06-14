@@ -7,7 +7,7 @@
 ## CSS
 [Brightcove Overlay Plugin CSS](//players.brightcove.net/videojs-overlay/1/videojs-overlay.css)  
 ## Name, Options( JSON )
-overlay
+### overlay
 ```JSON
 {
   "overlays": [{
@@ -24,7 +24,7 @@ start :   觸發顯示機制的起點  (可以是button,time...)
 end :     觸發顯示機制的終點  (可以是button,time...)  
 
 
-stillWatching
+### stillWatching
 ```JSON
 {}
 ```
