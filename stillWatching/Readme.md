@@ -30,3 +30,7 @@ end :     觸發顯示機制的終點  (可以是button,time...)
 {}
 ```
 另一項參數在JS裡為設定多久的時間檢查是否還在觀看影片 
+
+
+#### document  
+[overlay](//docs.brightcove.com/en/player/brightcove-player/guides/overlay-plugin.html)
