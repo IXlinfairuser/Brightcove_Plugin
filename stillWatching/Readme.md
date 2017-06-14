@@ -19,12 +19,15 @@ overlay
 }
 ```
 ##content : 欲顯示的文字內容
+
 ##align :   欲顯示文字的位置
+
 ##start :   觸發顯示機制的起點  (可以是button,time...)
+
 ##end :     觸發顯示機制的終點  (可以是button,time...)
 
-##另一項參數在JS裡為設定多久的時間檢查是否還在觀看影片   
 stillWatching
 ```JSON
 {}
 ```
+##另一項參數在JS裡為設定多久的時間檢查是否還在觀看影片 
