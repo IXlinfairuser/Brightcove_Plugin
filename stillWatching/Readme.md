@@ -1,6 +1,7 @@
 
 # Still Watching Plugin
-功能：觀看者是否仍繼續觀看影片
+功能：觀看者是否仍繼續觀看影片 
+效果：如果在設定的時間內觀看者都沒有移動滑鼠，判斷為無人使用，會跳訊息
 ## Javascript 
 [Brightcove Overlay Plugin JS](//players.brightcove.net/videojs-overlay/1/videojs-overlay.min.js)  
 [Plugin.js](https://raw.githubusercontent.com/IXlinfairuser/Brightcove_Plugin/master/stillWatching/plugin.js)  
