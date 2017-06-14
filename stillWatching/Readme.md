@@ -37,4 +37,4 @@ end :     觸發顯示機制的終點  (可以是button,time...)
 
 ### 效果圖  
 ![msg pic](http://i.imgur.com/FIaT9fU.jpg)  
-[Imgur](http://i.imgur.com/FIaT9fU.jpg)如果上圖看不見請點連結
+[Imgur](http://i.imgur.com/FIaT9fU.jpg) 如果上圖看不見請點連結
