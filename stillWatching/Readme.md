@@ -1,4 +1,4 @@
-#目的：客戶是否仍繼續觀看影片
+#目的：觀看者是否仍繼續觀看影片
 # Still Watching Plugin
 
 ## Javascript 
