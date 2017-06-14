@@ -1,7 +1,8 @@
 
 # Still Watching Plugin
 功能：觀看者是否仍繼續觀看影片  
-效果：每三十分鐘，會跳出訊息
+效果：每三十分鐘，會跳出訊息  
+訊息跳出後，任意點擊便繼續播放
 ## Javascript 
 [Brightcove Overlay Plugin JS](//players.brightcove.net/videojs-overlay/1/videojs-overlay.min.js)  
 [Plugin.js](https://raw.githubusercontent.com/IXlinfairuser/Brightcove_Plugin/master/stillWatching/plugin.js)  
