@@ -18,13 +18,11 @@ overlay
   }]
 }
 ```
-##content : 欲顯示的文字內容
+##content : 欲顯示的文字內容  
+##align :   欲顯示文字的位置  
+##start :   觸發顯示機制的起點  (可以是button,time...)  
+##end :     觸發顯示機制的終點  (可以是button,time...)  
 
-##align :   欲顯示文字的位置
-
-##start :   觸發顯示機制的起點  (可以是button,time...)
-
-##end :     觸發顯示機制的終點  (可以是button,time...)
 
 stillWatching
 ```JSON
