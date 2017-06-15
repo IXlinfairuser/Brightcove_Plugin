@@ -1,4 +1,6 @@
-# Geo-Filtering Messaging
+# Geo-Filtering Messaging  
+功能:使用於某些敏感議題的影片  
+效果:限制非此區域的用戶無法觀看，並顯示無法觀看的訊息     
 
 ## Javascript
 [Plugin.js](https://raw.githubusercontent.com/IXlinfairuser/Brightcove_Plugin/master/geoFilteringMessaging/plugin.js)
@@ -11,6 +13,7 @@ geoFilteringMessaging
   "headline": "本影片未授權在您的地區收看./n This video could not be played in your area."
 }
 ```
+headline:輸入無法觀看時，所顯示的文字內容  
 
 ## Deverlopment
 HTML
@@ -51,3 +54,15 @@ videojs.plugin('geoFilteringMessaging', function (options) {
     });
 });
 ```
+### Document  
+[Availability set](//support.brightcove.com/en/video-cloud/docs/configuring-video-availability)  
+[Geo Filtering msg](//docs.brightcove.com/en/player/brightcove-player/guides/geo-filtering.html)  
+
+### 用法  
+在 Video Colud介面上AVAILABILITY設定Geo Filtering  
+![Availability](http://i.imgur.com/wOOLWuq.jpg)  
+
+### 效果  
+![Geo Filtering msg](http://i.imgur.com/XAx2TwN.jpg)
+
+
