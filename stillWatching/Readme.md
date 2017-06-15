@@ -9,7 +9,7 @@
 [Brightcove Overlay Plugin CSS](//players.brightcove.net/videojs-overlay/1/videojs-overlay.css)   
 範例檔為 [stillWatching.css](https://raw.githubusercontent.com/IXlinfairuser/Brightcove_Plugin/master/stillWatching/stillWatching.css)  
 ## Name, Options( JSON )
-### overlay
+### Overlay
 ```JSON
 {
   "overlays": [{
@@ -26,14 +26,14 @@ start :   觸發顯示機制的起點  (可以是button,time...)
 end :     觸發顯示機制的終點  (可以是button,time...)  
 
 
-### stillWatching
+### StillWatching
 ```JSON
 {}
 ```
 另一項參數在JS裡為設定多久的時間檢查是否還在觀看影片 
 
 ***
-### document  
+### Document  
 [overlay](//docs.brightcove.com/en/player/brightcove-player/guides/overlay-plugin.html) 
 
 ### 效果圖  
