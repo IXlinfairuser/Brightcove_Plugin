@@ -7,7 +7,7 @@
 [Plugin.js](https://raw.githubusercontent.com/IXlinfairuser/Brightcove_Plugin/master/stillWatching/plugin.js)  
 ## CSS
 [Brightcove Overlay Plugin CSS](//players.brightcove.net/videojs-overlay/1/videojs-overlay.css)   
-範例檔為 stillWatching.css
+範例檔為 [stillWatching.css](https://raw.githubusercontent.com/IXlinfairuser/Brightcove_Plugin/master/stillWatching/stillWatching.css)  
 ## Name, Options( JSON )
 ### overlay
 ```JSON
