@@ -20,5 +20,8 @@ videojs.plugin('adCountDownTimer', function(){
 	});
 	player.one('playing', function(){
 		clearInterval(countdownTimer);
+        if(player.paused) {
+            player.play();
+        }
 	});
 })
