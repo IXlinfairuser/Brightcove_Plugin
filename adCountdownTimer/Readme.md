@@ -35,4 +35,8 @@ overlay
 adCountDownTimer
 ```JSON
 {}
-```
+```  
+  
+adstop.js  
+為解決 mac Safari ad-end 後  play/pause  會被切換的問題  
+(在 ad-end  & skip-ad 後 正常播放正片)
