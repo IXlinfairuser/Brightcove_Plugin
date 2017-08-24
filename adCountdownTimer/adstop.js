@@ -11,7 +11,13 @@ videojs.plugin('adCountDownTimer', function(){
 			timeRemaining = player.ima3.adsManager.getRemainingTime();
 			document.getElementById('timeRemaining').innerHTML = Math.round(timeRemaining);
 		}, 300);
-	});
+    });
+    player.on('ads-ad-skipped', function(){
+        clearInterval(countdownTimer);
+        if(player.paused) {
+            player.play();
+        }
+    });
 	player.on('ads-ad-ended', function(){
 		clearInterval(countdownTimer);
         if(player.paused) {
@@ -20,8 +26,9 @@ videojs.plugin('adCountDownTimer', function(){
 	});
 	player.one('playing', function(){
 		clearInterval(countdownTimer);
-        if(player.paused) {
-            player.play();
-        }
+        // if(player.paused) {
+        //     player.play();
+        //     console.log('here is playing event');
+        // }
 	});
 })
