@@ -18,17 +18,17 @@ videojs.plugin('adCountDownTimer', function(){
             player.play();
         }
     });
-	player.on('ads-ad-ended', function(){
-		clearInterval(countdownTimer);
+    player.on('ads-ad-ended', function(){
+	clearInterval(countdownTimer);
         if(player.paused) {
             player.play();
         }
-	});
-	player.one('playing', function(){
-		clearInterval(countdownTimer);
+    });
+    player.one('playing', function(){
+	clearInterval(countdownTimer);
         // if(player.paused) {
         //     player.play();
         //     console.log('here is playing event');
         // }
-	});
+    });
 })
