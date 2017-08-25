@@ -14,9 +14,9 @@ videojs.plugin('adCountDownTimer', function(){
     });
     player.on('ads-ad-skipped', function(){
         clearInterval(countdownTimer);
-        if(player.paused) {
-            player.play();
-        }
+//         if(player.paused) {
+//             player.play();
+//         }
     });
     player.on('ads-ad-ended', function(){
 	clearInterval(countdownTimer);
