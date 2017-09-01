@@ -14,11 +14,10 @@ videojs.plugin('adCountDownTimer', function(){
     });
     player.on('ads-ad-skipped', function(){
         clearInterval(countdownTimer);
+    	player.play();
     });
     player.on('ads-ad-ended', function(){
 	clearInterval(countdownTimer);
+    	player.play();
     });
-//     player.one('playing', function(){
-// 	clearInterval(countdownTimer);
-//     });
 })
