@@ -13,11 +13,15 @@ videojs.plugin('adCountDownTimer', function(){
 		}, 300);
     });
     player.on('ads-ad-skipped', function(){
+      if(player.mediainfo.duration == 0) {  
         clearInterval(countdownTimer);
-//     	player.play();
+    	player.play();
+      }
     });
     player.on('ads-ad-ended', function(){
+      if(player.mediainfo.duration == 0) {  
 	clearInterval(countdownTimer);
     	player.play();
+      }
     });
 })
