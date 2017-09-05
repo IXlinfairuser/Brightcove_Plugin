@@ -39,4 +39,19 @@ adCountDownTimer
   
 adstop.js  
 為解決 mac Safari ad-end 後  play/pause  會被切換的問題  
-(在 ad-end  & skip-ad 後 正常播放正片)
+(在 ad-end  & skip-ad 後 正常播放正片)  
+  
+```
+    player.on('ads-ad-skipped', function(){
+        if(player.mediainfo.duration == 0) {     
+            clearInterval(countdownTimer);
+            player.play();
+        }
+    });
+    player.on('ads-ad-ended', function(){
+        if(player.mediainfo.duration == 0) { 
+        clearInterval(countdownTimer);
+             player.play();
+        }
+    });
+```
