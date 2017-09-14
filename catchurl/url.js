@@ -4,7 +4,7 @@ videojs.plugin('catchurl', function(){
 
           console.log('retrieving signed URL (3)')
           $.get("https://9thkhbt5kd.execute-api.us-east-1.amazonaws.com/test/SignUrl/AKAM/show", function(data, status) {
-            console.log(data)
+//             console.log(data)
             playVideo("vjs_video_3", data.url)
           });
     });
@@ -15,8 +15,8 @@ videojs.plugin('catchurl', function(){
                       "type": "application/x-mpegURL",
                       "src": url
                      }]
-      console.log('************');
-      console.log('URL: ' + url);
+//       console.log('************');
+//       console.log('URL: ' + url);
       player = videojs(playerId);
       player.src(sources);
       player.play();
