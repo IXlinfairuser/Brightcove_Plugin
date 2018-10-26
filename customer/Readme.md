@@ -5,7 +5,7 @@
 proxy is php for API server token request to solve CORS problem  
   
 #### CALL API and UI ####  
-LiveEntryPointAcDe for TVBS         __ IE
+LiveEntryPointAcDe for TVBS         __ IE  
 AnalyticsAPI for SET                __ IE  
 CreateObjUploadVideoAPI for CTV     __ proxy 
   
