@@ -19,7 +19,7 @@
         background-color:rgba(10,20,30,0.5);
         border-radius: 8px;
     }/*display: none;*/
-    .adPic {width:285px;border-radius:8px;}
+    .adPic {width:313px;border-radius:8px;height:310px;}
     .mfooter {clear: left;}
     .brLogo {
         position: relative;
